@@ -1,0 +1,79 @@
+.start {
+	-fx-background-radius: 5em;
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 90px;
+	-fx-min-height: 40px;
+}
+
+.start:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: #C2007A;
+}
+
+.start:pressed {
+  -fx-background-color: #EF0096;
+}
+
+.exit {
+	-fx-background-radius: 5em;
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 90px;
+	-fx-min-height: 40px;
+}
+
+.exit:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: #6A0CC5;
+}
+
+.exit:pressed {
+  -fx-background-color: #995CD4;
+  
+}
+
+.menuBackGround {
+	-fx-background-image: url("First_Menu_WallPaper.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.Connect4BackGround {
+	-fx-background-image: url("Connect_4_Background.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.winBackground {
+	-fx-background-image: url("winScreen.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.mainMenuButton {
+	-fx-background-radius: 5em;
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 30px;
+	-fx-min-height: 30px;
+}
+
+
+
+.mainMenuButton:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.mainMenuButton:pressed {
+  -fx-background-color: #778571;
+}
+
+
+
